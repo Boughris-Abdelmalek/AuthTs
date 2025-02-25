@@ -3,6 +3,11 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "generate-rsa": "bun run scripts/rsa.ts",
+    "generate-jwt": "bun run scripts/token.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
